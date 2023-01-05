@@ -1,0 +1,82 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+  font-family: "pt_serifregular", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  padding: 0rem 2.5rem;
+  position: sticky;
+  align-items: baseline;
+  font-family: "antique-olive", sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+  overflow-x: auto;
+  font-weight: 300;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #0460d9;
+}
+
+body {
+  background-color: #ffd4fd;
+}
+
+main {
+  margin: 4rem 1rem 0rem 1rem;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "antique-olive", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  color: #0460d9;
+  text-align: center;
+}
+
+.laura {
+  font-size: 1.2rem;
+  color: #69bfaf;
+}
+
+.lille_laura {
+  font-size: 0.8rem;
+}
+
+.lille {
+  font-size: 2rem;
+}
+
+.main_portfolie {
+  margin: 0rem;
+}
