@@ -64,6 +64,22 @@ h1 {
   text-align: center;
 }
 
+.kasse {
+  border-style: ridge;
+  border-color: red;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+h2 {
+  font-family: "antique-olive", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  color: #0460d9;
+  text-align: center;
+}
+
 .laura {
   font-size: 1.2rem;
   color: #69bfaf;
@@ -74,9 +90,13 @@ h1 {
 }
 
 .lille {
-  font-size: 2rem;
+  font-size: 1.8rem;
+}
+
+.overskrift_padding {
+  padding-bottom: 2rem;
 }
 
 .main_portfolie {
-  margin: 0rem;
+  margin: 0rem 1rem 0rem 1rem;
 }
