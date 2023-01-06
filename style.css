@@ -46,6 +46,12 @@ nav ul a {
   color: #0460d9;
 }
 
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #0460d9;
+}
+
 body {
   background-color: #ffd4fd;
 }
