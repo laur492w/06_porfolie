@@ -150,9 +150,9 @@ h2 {
 
 h3 {
   font-family: "antique-olive", sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   font-style: normal;
-  font-size: 0.6rem;
+  font-size: 1.5rem;
   color: #0460d9;
 }
 
@@ -178,11 +178,15 @@ h3 {
 }
 
 .tekst {
-  padding-bottom: 1rem;
+  padding: 0.6rem 0rem 0.5rem 0rem;
+}
+
+.tekst2 {
+  padding: 0rem 0rem 0.5rem 0rem;
 }
 
 img {
-  padding: 1rem 0rem 0.4rem 0rem;
+  padding: 0rem 0rem 0.4rem 0rem;
 }
 
 p {
@@ -196,11 +200,11 @@ p {
     color: #0b1770;
     font-family: corporate-a, serif;
     font-size: 1.1rem;
-    padding: 1rem 1rem 0rem 0rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
 
   .p_overst {
-    padding: 0.8rem 1rem 0rem 1rem;
+    padding: 0rem 1rem 0rem 0rem;
   }
 
   h2 {
