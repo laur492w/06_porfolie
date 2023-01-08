@@ -144,9 +144,16 @@ h2 {
   font-family: "antique-olive", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #0460d9;
-  text-align: center;
+}
+
+h3 {
+  font-family: "antique-olive", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 0.6rem;
+  color: #0460d9;
 }
 
 .laura {
@@ -174,6 +181,10 @@ h2 {
   padding-bottom: 1rem;
 }
 
+img {
+  padding: 1rem 0rem 0.4rem 0rem;
+}
+
 p {
   color: #0b1770;
   font-family: corporate-a, serif;
@@ -184,7 +195,38 @@ p {
   p {
     color: #0b1770;
     font-family: corporate-a, serif;
-    font-size: 1.2rem;
-    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.1rem;
+    padding: 1rem 1rem 0rem 0rem;
+  }
+
+  .p_overst {
+    padding: 0.8rem 1rem 0rem 1rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .h2_tema {
+    font-family: "antique-olive", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4rem;
+    color: #0460d9;
+    text-align: center;
+  }
+
+  main {
+    margin: 4rem 15rem 0rem 15rem;
+  }
+
+  .main_portfolie {
+    margin: 0rem 12rem 0rem 12rem;
+  }
+
+  .billede_tekst {
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 0.8rem;
   }
 }
