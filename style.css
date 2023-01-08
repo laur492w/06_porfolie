@@ -14,6 +14,57 @@ img {
   display: block;
 }
 
+.banner {
+  /* 1. Få elementerne til at stå ved siden af hinanden og brug justify-content til at skubbe dem væk fra hinanden */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+.main-menu ul {
+  list-style: none;
+  padding: 0;
+
+  /* 2. Få elementerne til at stå ved siden af hinanden */
+  display: flex;
+  gap: 1rem;
+}
+
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    display: block;
+  }
+
+  .main-menu.shown {
+    display: contents;
+  }
+
+  .main-menu ul {
+    display: none;
+  }
+
+  .main-menu.shown ul {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 100%;
+  }
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -125,5 +176,15 @@ h2 {
 
 p {
   color: #0b1770;
-  font-family: ;
+  font-family: corporate-a, serif;
+  font-size: 1.06rem;
+}
+
+@media (min-width: 800px) {
+  p {
+    color: #0b1770;
+    font-family: corporate-a, serif;
+    font-size: 1.2rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
 }
