@@ -46,6 +46,7 @@ img {
 @media (max-width: 600px) {
   .toggle-btn {
     display: block;
+    color: #69bfaf;
   }
 
   .main-menu.shown {
@@ -57,7 +58,7 @@ img {
   }
 
   .main-menu.shown ul {
-    border-top: 1px solid #000;
+    border-top: 1px solid red;
     padding-top: 1rem;
     display: flex;
     flex-flow: column;
@@ -75,6 +76,7 @@ header {
   font-family: "antique-olive", sans-serif;
   font-size: 1.3rem;
   font-style: normal;
+  background-color: #fce1fc;
 }
 
 header nav ul {
@@ -112,6 +114,21 @@ main {
   padding: 20px;
 }
 
+footer {
+  margin: 0rem;
+  padding: 3rem 2rem 3rem 2rem;
+  text-align: left;
+  background-color: #0b1770;
+  margin-top: 40px;
+}
+
+.footer {
+  color: #ffd4fd;
+  font-family: "antique-olive", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
 h1 {
   font-family: "antique-olive", sans-serif;
   font-weight: 500;
@@ -146,6 +163,7 @@ h2 {
   font-style: normal;
   font-size: 2rem;
   color: #0460d9;
+  padding: 0.6rem 0rem 0.5rem 0.6rem;
 }
 
 h3 {
@@ -154,6 +172,7 @@ h3 {
   font-style: normal;
   font-size: 1.5rem;
   color: #0460d9;
+  padding: 0.6rem 0rem 0.5rem 0.6rem;
 }
 
 .laura {
@@ -177,22 +196,27 @@ h3 {
   margin: 0rem 1rem 0rem 1rem;
 }
 
-.tekst {
-  padding: 0.6rem 0rem 0.5rem 0rem;
-}
-
 .tekst2 {
-  padding: 0rem 0rem 0.5rem 0rem;
+  padding: 0rem 0rem 0.5rem 0.6rem;
 }
 
 img {
-  padding: 0rem 0rem 0.4rem 0rem;
+  padding: 0.6rem 0rem 0.5rem 0.6rem;
+}
+
+.img2 {
+  padding: 0rem 0rem 0.5rem 0.6rem;
 }
 
 p {
   color: #0b1770;
   font-family: corporate-a, serif;
   font-size: 1.06rem;
+  padding: 0.6rem 0rem 0.5rem 0.6rem;
+}
+.billede_tekst {
+  padding: 0rem 0rem 0rem 0.6rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 800px) {
@@ -200,7 +224,6 @@ p {
     color: #0b1770;
     font-family: corporate-a, serif;
     font-size: 1.1rem;
-    padding: 0rem 1rem 0rem 0rem;
   }
 
   .p_overst {
@@ -209,7 +232,6 @@ p {
 
   h2 {
     font-size: 2.3rem;
-    padding: 1rem 0rem 0rem 0rem;
   }
 
   .h2_tema {
@@ -232,5 +254,27 @@ p {
   .billede_tekst {
     padding: 0rem 0rem 0rem 0rem;
     font-size: 0.8rem;
+  }
+
+  footer {
+    margin: 0rem;
+    padding: 3rem 2rem 3rem 2rem;
+    text-align: center;
+    background-color: #0b1770;
+    margin-top: 40px;
+  }
+
+  .footer {
+    color: #ffd4fd;
+    font-family: "antique-olive", sans-serif;
+    font-size: 0.77rem;
+    font-weight: 100;
+  }
+
+  body {
+    background-image: url(img/Artboard\ 4.png);
+    background-repeat: no-repeat;
+    background-position-x: 0.5rem;
+    background-position-y: 0.5rem;
   }
 }
