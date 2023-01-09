@@ -29,18 +29,18 @@ img {
 
   /* 2. Få elementerne til at stå ved siden af hinanden */
   display: flex;
-  gap: 1rem;
+  gap: 6rem;
 }
 
 /* burgermenu */
 .toggle-btn {
-  background: transparent;
+  background: url(ai/burgermenu.svg);
   border: none;
-  min-width: 44px;
-  min-height: 44px;
-  font-size: 1.1rem;
+  min-width: 40px;
+  min-height: 40px;
   cursor: pointer;
   display: none;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 600px) {
@@ -70,13 +70,14 @@ header {
   display: flex;
   justify-content: space-between;
   top: 0;
-  padding: 0rem 2.5rem;
+  padding: 0.3rem 2.5rem;
   position: sticky;
   align-items: baseline;
   font-family: "antique-olive", sans-serif;
   font-size: 1.3rem;
   font-style: normal;
   background-color: #fce1fc;
+  z-index: 100;
 }
 
 header nav ul {
@@ -110,8 +111,9 @@ body {
 }
 
 main {
-  margin: 4rem 1rem 0rem 1rem;
+  margin: 3rem 1rem 28rem 1rem;
   padding: 20px;
+  padding-bottom: 6rem;
 }
 
 footer {
@@ -139,9 +141,9 @@ h1 {
 }
 
 .kasse {
-  border-style: ridge;
+  border-style: double;
   border-color: red;
-  margin-bottom: 1rem;
+  margin: 1rem 1rem 1rem 1rem;
   padding: 1rem 1rem 1rem 1rem;
   transition: all 0.6s ease;
 }
@@ -151,8 +153,8 @@ h1 {
 }
 
 .kasse1 {
-  border-style: ridge;
-  border-color: red;
+  border-style: double;
+  border-color: #ffd4fd;
   margin-bottom: 1rem;
   padding: 1rem 1rem 1rem 1rem;
 }
@@ -177,7 +179,7 @@ h3 {
 
 .laura {
   font-size: 1.2rem;
-  color: #69bfaf;
+  color: #5ca2ff;
 }
 
 .lille_laura {
@@ -217,10 +219,22 @@ p {
 .billede_tekst {
   padding: 0rem 0rem 0rem 0.6rem;
   font-size: 0.8rem;
+  color: #0b1770;
 }
 
 .ikon {
   width: 80%;
+}
+
+.body {
+  background-image: url(ai/blomst2.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 17rem;
+}
+
+a {
+  color: red;
 }
 
 @media (min-width: 800px) {
@@ -256,7 +270,7 @@ p {
   }
 
   .billede_tekst {
-    padding: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0.6rem;
     font-size: 0.8rem;
   }
 
@@ -279,10 +293,28 @@ p {
     text-align: center;
   }
 
-  body {
-    background-image: url(ai/baggrund1.svg);
+  .design_padding {
+    padding-top: 2rem;
+  }
+
+  .body {
+    background-image: url(ai/baggrund11.svg);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: -20rem;
+    background-position-y: -18rem;
+  }
+
+  .body_tema {
+    background-image: url(ai/blomst3_side.svg), url(ai/korn_stor_side.svg), url(ai/blomst2_side.svg), url(ai/korn_lille.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80rem, 82rem, -5rem, 7rem;
+    background-position-y: 10rem, 70rem, 40rem, 140rem;
+  }
+
+  .body_port {
+    background-image: url(ai/blomst3_side.svg), url(ai/korn_stor_side.svg), url(ai/blomst2_side.svg);
+    background-repeat: no-repeat;
+    background-position-x: 80rem, 82rem, -5rem, 7rem;
+    background-position-y: 10rem, 52rem, 40rem, 135rem;
   }
 }
