@@ -29,7 +29,6 @@ img {
 
   /* 2. Få elementerne til at stå ved siden af hinanden */
   display: flex;
-  gap: 6rem;
 }
 
 /* burgermenu */
@@ -111,7 +110,7 @@ body {
 }
 
 main {
-  margin: 3rem 1rem 28rem 1rem;
+  margin: 0.5rem 1rem 28rem 1rem;
   padding: 20px;
   padding-bottom: 6rem;
 }
@@ -133,7 +132,7 @@ footer {
 
 h1 {
   font-family: "antique-olive", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   font-size: 4rem;
   color: #0460d9;
@@ -168,20 +167,17 @@ h1 {
   transform: scale(1.03);
 }
 
-.kasse1 {
-  border-style: double;
-  border-color: #ffd4fd;
-  margin-bottom: 1rem;
-  padding: 1rem 1rem 1rem 1rem;
-}
-
 h2 {
   font-family: "antique-olive", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #0460d9;
   padding: 0.6rem 0rem 0.5rem 0.6rem;
+}
+
+.h2_tema {
+  text-align: center;
 }
 
 h3 {
@@ -234,7 +230,7 @@ p {
   color: #0b1770;
   font-family: "corporate-a", serif;
   font-size: 1.06rem;
-  padding: 0.6rem 0rem 0.5rem 0.6rem;
+  padding: 0rem 0rem 1rem 0.6rem;
 }
 .billede_tekst {
   padding: 0rem 0rem 0rem 0.6rem;
@@ -250,7 +246,7 @@ p {
   background-image: url(ai/blomst2.svg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: 17rem;
+  background-position-y: 22rem;
 }
 
 a {
@@ -258,6 +254,9 @@ a {
 }
 
 @media (min-width: 800px) {
+  .main-menu ul {
+    gap: 6rem;
+  }
   .portfolie {
     font-size: 7rem;
   }
@@ -340,5 +339,12 @@ a {
     background-repeat: no-repeat;
     background-position-x: 80rem, 82rem, -5rem, 7rem;
     background-position-y: 10rem, 52rem, 40rem, 135rem;
+  }
+
+  .kasse2 {
+    border-style: double;
+    border-color: red;
+    text-align: center;
+    transition: all 0.6s ease;
   }
 }

@@ -1,3 +1,8 @@
+.mobil_grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 .footer_grid {
   display: grid;
   gap: 10px;
@@ -277,6 +282,11 @@
     grid-row: 2/4;
   }
 
+  .redesign4 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
   .redesign_video {
     display: grid;
     gap: 10px;
@@ -286,11 +296,6 @@
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .redesign4 {
-    grid-column: 1/2;
-    grid-row: 4/5;
   }
 
   .redesign5 {
