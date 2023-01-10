@@ -133,11 +133,16 @@ footer {
 
 h1 {
   font-family: "antique-olive", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: normal;
   font-size: 4rem;
   color: #0460d9;
   text-align: center;
+}
+
+.portfolie {
+  font-family: "ganache", sans-serif;
+  font-weight: 400;
 }
 
 .kasse {
@@ -148,7 +153,18 @@ h1 {
   transition: all 0.6s ease;
 }
 
+.kasse2 {
+  border-style: double;
+  border-color: red;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+
 .kasse:hover {
+  transform: scale(1.03);
+}
+
+.kasse2:hover {
   transform: scale(1.03);
 }
 
@@ -177,21 +193,36 @@ h3 {
   padding: 0.6rem 0rem 0.5rem 0.6rem;
 }
 
+h4 {
+  font-size: 1rem;
+  font-family: "antique-olive", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #0460d9;
+}
+
 .laura {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #5ca2ff;
+  font-weight: 100;
 }
 
 .lille_laura {
   font-size: 0.8rem;
+  font-weight: 100;
 }
 
 .lille {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-family: "ganache", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .overskrift_padding {
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 0;
 }
 
 .main_portfolie {
@@ -212,7 +243,7 @@ img {
 
 p {
   color: #0b1770;
-  font-family: corporate-a, serif;
+  font-family: "corporate-a", serif;
   font-size: 1.06rem;
   padding: 0.6rem 0rem 0.5rem 0.6rem;
 }
@@ -238,6 +269,10 @@ a {
 }
 
 @media (min-width: 800px) {
+  .portfolie {
+    font-size: 7rem;
+  }
+
   p {
     color: #0b1770;
     font-family: corporate-a, serif;
@@ -262,7 +297,7 @@ a {
   }
 
   main {
-    margin: 4rem 15rem 25rem 15rem;
+    margin: 1rem 15rem 25rem 15rem;
   }
 
   .main_portfolie {
@@ -300,8 +335,8 @@ a {
   .body {
     background-image: url(ai/baggrund11.svg);
     background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: -18rem;
+    background-position-x: -17rem;
+    background-position-y: -15rem;
   }
 
   .body_tema {
