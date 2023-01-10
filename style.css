@@ -255,7 +255,7 @@ a {
 
 @media (min-width: 800px) {
   .main-menu ul {
-    gap: 6rem;
+    gap: 3rem;
   }
   .portfolie {
     font-size: 7rem;
